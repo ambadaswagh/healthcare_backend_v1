@@ -1,0 +1,202 @@
+2019-02-17 15:21:55,050  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.healthcare.RedisApplicationTests], using SpringBootContextLoader
+2019-02-17 15:21:55,139  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.healthcare.RedisApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-02-17 15:21:55,140  INFO AnnotationConfigContextLoaderUtils:81 - Could not detect default configuration classes for test class [com.healthcare.RedisApplicationTests]: RedisApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-02-17 15:21:56,891  INFO SpringBootTestContextBootstrapper:177 - Found @SpringBootConfiguration com.healthcare.HealthcareApplication for test class com.healthcare.RedisApplicationTests
+2019-02-17 15:21:56,899  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-02-17 15:21:57,305  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4d826d77, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61009542, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@77e9807f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@448ff1a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1a38c59b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7f77e91b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@44a664f2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f9fcf7f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2357d90a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6328d34a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@145eaa29, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@15bb6bea]
+2019-02-17 15:22:02,634  INFO RedisApplicationTests:48 - Starting RedisApplicationTests on DELL-PC with PID 5484 (started by DELL in D:\workspace\healthcare_backend_v1)
+2019-02-17 15:22:02,635  INFO RedisApplicationTests:665 - The following profiles are active: dev
+2019-02-17 15:22:03,353  INFO GenericWebApplicationContext:582 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@183ec003: startup date [Sun Feb 17 15:22:03 IST 2019]; root of context hierarchy
+2019-02-17 15:22:12,414  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2019-02-17 15:22:17,940  INFO RepositoryConfigurationDelegate:170 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-17 15:22:20,743  INFO RepositoryConfigurationDelegate:170 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-17 15:22:21,149  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.TrainingEmployeeRepository.
+2019-02-17 15:22:21,150  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.OrganizationRepository.
+2019-02-17 15:22:21,152  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.AdminRepository.
+2019-02-17 15:22:21,153  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.TodolistRepository.
+2019-02-17 15:22:21,154  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.IngredientRepository.
+2019-02-17 15:22:21,155  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.AppointmentRepository.
+2019-02-17 15:22:21,155  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.HealthStatusRepository.
+2019-02-17 15:22:21,156  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.CompanyRepository.
+2019-02-17 15:22:21,157  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.RideLineDailyRepository.
+2019-02-17 15:22:21,157  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.AssessmentUserRepository.
+2019-02-17 15:22:21,158  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.MealRepository.
+2019-02-17 15:22:21,159  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.EmployeeRepository.
+2019-02-17 15:22:21,160  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.MedicationRepository.
+2019-02-17 15:22:21,161  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.InsuranceBrokerCompanyRepository.
+2019-02-17 15:22:21,161  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.MenuRepository.
+2019-02-17 15:22:21,162  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.ServiceForClientRepository.
+2019-02-17 15:22:21,163  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.InsuranceHistoryRepository.
+2019-02-17 15:22:21,166  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.chat.repository.ChatGroupRepository.
+2019-02-17 15:22:21,166  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.LeaveRepository.
+2019-02-17 15:22:21,167  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.MediaRepository.
+2019-02-17 15:22:21,169  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.DoctorAppointmentRepository.
+2019-02-17 15:22:21,169  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.ReportRepository.
+2019-02-17 15:22:21,170  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.IadlsRepository.
+2019-02-17 15:22:21,171  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.BillingRepository.
+2019-02-17 15:22:21,171  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.DriverRepository.
+2019-02-17 15:22:21,172  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.BenefitEntitlementRepository.
+2019-02-17 15:22:21,172  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.chat.repository.GroupMemberRepository.
+2019-02-17 15:22:21,173  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.MonthlyIncomeRepository.
+2019-02-17 15:22:21,173  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.TableRepository.
+2019-02-17 15:22:21,174  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.ReservationRepository.
+2019-02-17 15:22:21,174  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.RideLineRepository.
+2019-02-17 15:22:21,175  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.UserRepository.
+2019-02-17 15:22:21,176  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.chat.repository.ChatSectionRepository.
+2019-02-17 15:22:21,176  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.DocumentRepository.
+2019-02-17 15:22:21,177  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.EmployeePaymentRepository.
+2019-02-17 15:22:21,178  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.chat.repository.MessageBoxRepository.
+2019-02-17 15:22:21,178  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.CronJobReportRepository.
+2019-02-17 15:22:21,179  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.NutritionRepository.
+2019-02-17 15:22:21,179  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.ServicePlanRepository.
+2019-02-17 15:22:21,180  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.VehicleBrandRepository.
+2019-02-17 15:22:21,181  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.TripAnalyzeRepository.
+2019-02-17 15:22:21,181  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.PatientDaignosisRepository.
+2019-02-17 15:22:21,182  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.PasswordRepository.
+2019-02-17 15:22:21,182  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.RoleRepository.
+2019-02-17 15:22:21,183  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.AgencyTableRepository.
+2019-02-17 15:22:21,183  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.AdminAgencyCompanyOrganizationRepository.
+2019-02-17 15:22:21,184  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.AgencyTypeRepository.
+2019-02-17 15:22:21,185  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.RideLineHasDriverRepository.
+2019-02-17 15:22:21,185  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.VehicleRepository.
+2019-02-17 15:22:21,186  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.VehicleTypeRepository.
+2019-02-17 15:22:21,195  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.WorkItemRepository.
+2019-02-17 15:22:21,195  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.ResourceRepository.
+2019-02-17 15:22:21,196  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.AdminSettingRepository.
+2019-02-17 15:22:21,196  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.HomeVisitRepository.
+2019-02-17 15:22:21,197  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.ResourceBusinessHoursRepository.
+2019-02-17 15:22:21,198  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.RideRepository.
+2019-02-17 15:22:21,198  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.ActivityRepository.
+2019-02-17 15:22:21,198  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.HealthInsuranceClaimRepository.
+2019-02-17 15:22:21,199  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.chat.repository.MessageBoxBackupRepository.
+2019-02-17 15:22:21,199  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.RideLineColorRepository.
+2019-02-17 15:22:21,200  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.AdminPostRepository.
+2019-02-17 15:22:21,200  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.TrainingRepository.
+2019-02-17 15:22:21,201  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.CareGiverRepository.
+2019-02-17 15:22:21,203  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.OrderRepository.
+2019-02-17 15:22:21,203  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.EmployeeClockingRepository.
+2019-02-17 15:22:21,204  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.MedicineTakenRepository.
+2019-02-17 15:22:21,204  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.VisitRepository.
+2019-02-17 15:22:21,205  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.ContentTypeRepository.
+2019-02-17 15:22:21,205  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.ReviewRepository.
+2019-02-17 15:22:21,213  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.AssessmentRepository.
+2019-02-17 15:22:21,213  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.ContentRepository.
+2019-02-17 15:22:21,214  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.FoodAllergyRepository.
+2019-02-17 15:22:21,214  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.InformationSupportRepository.
+2019-02-17 15:22:21,215  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.EmployeeActivityRepository.
+2019-02-17 15:22:21,215  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.HousingRepository.
+2019-02-17 15:22:21,215  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.assessment.PsychoSocialStatusRepository.
+2019-02-17 15:22:21,216  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.AgencyRepository.
+2019-02-17 15:22:21,217  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.VisitActivityRepository.
+2019-02-17 15:22:21,218  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.NotificationRepository.
+2019-02-17 15:22:21,218  INFO RepositoryConfigurationExtensionSupport:283 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.healthcare.repository.SeatRepository.
+2019-02-17 15:22:22,647  INFO AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-02-17 15:22:22,916  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fc024cab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-17 15:22:22,992  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [class org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$94b014e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-17 15:22:23,025  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'objectPostProcessor' of type [class org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-17 15:22:23,028  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4c05f83b' of type [class org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-17 15:22:23,049  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [class org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$b984b797] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-17 15:22:23,062  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'methodSecurityMetadataSource' of type [class org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-17 15:22:25,955  INFO LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-02-17 15:22:26,457  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-17 15:22:26,616  INFO Version:37 - HHH000412: Hibernate Core {5.0.11.Final}
+2019-02-17 15:22:26,620  INFO Environment:213 - HHH000206: hibernate.properties not found
+2019-02-17 15:22:26,633  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-02-17 15:22:26,756  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-02-17 15:22:27,196  INFO DruidDataSource:922 - {dataSource-1} inited
+2019-02-17 15:22:35,791 ERROR DruidDataSource:2453 - create connection SQLException, url: jdbc:mysql://healthcare-cluster.cluster-csludvxcarnc.us-west-2.rds.amazonaws.com:3306/healthcare?autoReconnect=true&useSSL=false&useUnicode=yes&characterEncoding=UTF-8&useLegacyDatetimeCode=false, errorCode 0, state 08001
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:918)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2088)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1512)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1575)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2450)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'healthcare'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3970)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3906)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2253)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2104)
+	... 18 more
+2019-02-17 15:22:43,135 ERROR DruidDataSource:2453 - create connection SQLException, url: jdbc:mysql://healthcare-cluster.cluster-csludvxcarnc.us-west-2.rds.amazonaws.com:3306/healthcare?autoReconnect=true&useSSL=false&useUnicode=yes&characterEncoding=UTF-8&useLegacyDatetimeCode=false, errorCode 0, state 08001
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:918)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2088)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1512)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1575)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2450)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'healthcare'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3970)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3906)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2253)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2104)
+	... 18 more

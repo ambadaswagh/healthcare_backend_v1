@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	
+    <admin id="1"
+    		username="kiennt"
+    		password="a21345t32e"
+             first_name="Kien"
+             middle_name="Trung"
+             last_name="Nguyen"
+             gender="male"
+             email="kiennt@live.com"
+             phone="0988928892"
+             secondary_phone="2345676543"
+             status="1"
+             role_id="1"
+             menu_list="1,2" />
+
+    <todolist id="1"
+			admin_id="1"
+			num="0"
+			content="Say hello"
+			priority="HIGH"
+			color="#FFFFFF"
+			status="1" />
+			
+    <todolist id="2"
+			admin_id="1"
+			num="0"
+			content="Say hello 1"
+			priority="HIGH"
+			color="#FFFFFF"
+			status="0" />
+
+</dataset>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+    <activity id="100"
+              name="Name 1"
+              instructor_employee_id="100" />
+
+</dataset>

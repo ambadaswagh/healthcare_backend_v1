@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+    <company id="100"
+             license_no="License"
+             federal_tax="Federal Tax"
+             federal_tax_start="2017-05-01"
+             federal_tax_expire="2017-05-20"
+             federal_tax_status="1"
+             state_tax="State Tax"
+             state_tax_start="2017-05-01"
+             state_tax_expire="2017-05-20"
+             state_tax_status="1"
+             name="Name"
+             phone="12345"
+             fax="12345"
+             email="test@email.com"
+             address_one="Address 1"
+             address_two="Address 2"
+             city="City"
+             state="State"
+             zipcode="00000"
+             status="1" />
+
+    <agency_type id="100"
+                 name="Name"
+                 status="1" />
+
+    <agency id="100"
+            license_no="License"
+            company_id="100"
+            company_id1="100"
+            agency_type_id="100"
+            name="Name"
+            tracking_mode="1"
+            contact_person="Contact Person"
+            email="test@email.com"
+            address_one="Address 1"
+            address_two="Address 2"
+            city="City"
+            state="State"
+            zipcode="00000"
+            timezone="UTC"
+            phone="12345"
+            holiday="Holiday"
+            fax="12345"
+            status="1"/>
+
+    <user id="100"
+          company_id="100"
+          agency_id="100"
+          user_type="1"
+          username="username"
+          password="password"
+          first_name="First Name"
+          last_name="Last Name"
+          phone="12345"
+          medicaid_no="Medicaid"
+          insurance_start="2017-05-01"
+          insurance_end="2017-05-01"
+          insurance_eligiable="Eligiable"
+          eligiable_start="2017-05-01"
+          eligiable_end="2017-05-01"
+          family_doctor="Family Doctor" 
+          status="1" 
+          statusSecond="1"/>
+
+    <visit id="100"
+           agency_id="100"
+           selected_seat="1"
+           user_id="100"
+           status="Status"
+           active="1"/>
+
+    <meal id="100"
+          meal_class="Class"
+          name="Name"
+          visit_id="100" />
+
+</dataset>

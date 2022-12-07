@@ -1,0 +1,19 @@
+<html>
+<body>
+	<h3>Company Information</h3>
+	<p>- Company Name: ${companyName}</p>
+	<p>- Company Address:</p>
+	<p>  + Address 1: ${companyAddress1}</p>
+	<p>  + Address 2: ${companyAddress1}</p>
+	<p>  + City: ${companyCity}</p>
+	<p>  + State: ${companyState}</p>
+	<p>  + Zipcode: ${companyZipcode}</p>
+	<br/>
+	<br/>
+    <h3>Order Information</h3>
+	<p>- Order ID: ${orderId}</p>
+	<p>- Order Time: ${orderTime}</p>
+	<p>- Deliver Time: ${deliverTime}</p>
+	<p>- Status: ${orderStatus}</p>
+</body>
+</html>

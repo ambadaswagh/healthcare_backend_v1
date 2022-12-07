@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+    <company id="100"
+             license_no="License"
+             federal_tax="Federal Tax"
+             federal_tax_start="2017-05-01"
+             federal_tax_expire="2017-05-20"
+             federal_tax_status="1"
+             state_tax="State Tax"
+             state_tax_start="2017-05-01"
+             state_tax_expire="2017-05-20"
+             state_tax_status="1"
+             name="Name"
+             phone="12345"
+             fax="12345"
+             email="test@email.com"
+             address_one="Address 1"
+             address_two="Address 2"
+             city="City"
+             state="State"
+             zipcode="00000"
+             status="1" />
+
+    <agency_type id="100"
+                 name="Name"
+                 status="1" />
+
+    <agency id="100"
+            license_no="License"
+            company_id="100"
+            company_id1="100"
+            agency_type_id="100"
+            name="Name"
+            tracking_mode="1"
+            contact_person="Contact Person"
+            email="test@email.com"
+            address_one="Address 1"
+            address_two="Address 2"
+            city="City"
+            state="State"
+            zipcode="00000"
+            timezone="UTC"
+            phone="12345"
+            holiday="Holiday"
+            fax="12345"
+            status="1"/>
+
+    <employee id="100"
+              first_name="First Name"
+              last_name="Last Name"
+              gender="Male"
+              social_security_number="12345"
+              date_of_birth="2000-01-01"
+              physical_exam="Physical Exam"
+              work_start="2015-01-01"
+              manager="part-time"
+              type="part-time"
+              agency_id="100"
+                active="1"/>
+
+    <activity id="100"
+              name="Name"
+              instructor_employee_id="100" />
+
+</dataset>
